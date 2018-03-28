@@ -5,6 +5,21 @@
 
 //this sets answers
 
+//trying to get this to answer at random trivia. It comes out at
+//correct answers. win/lose.
+clearInterval(intervalId);
+
+if  ($("input").val(["answer"])){
+    $("#result").text("Win,Win..Win");
+    clearInterval(intervalId);
+}else{
+($("input").val(["wrong"]));
+$("#result").text("False, Brown Bear.");
+
+}
+
+console.log("input");
+console.log("#result");
 
 //countdown
 
@@ -35,21 +50,6 @@ console.log(timer);
 
 timers();
 
-//trying to get this to answer at random trivia. It comes out at
-//correct answers. win, lose. 
-clearInterval(intervalId);
-
-if  ($("input").val(["answer"])){
-    $("#result").text("Win,Win..Win");
-    clearInterval(intervalId);
-}else{
-($("input").val(["wrong"]));
-$("#result").text("False, Brown Bear.");
-
-}
-
-console.log("input");
-console.log("#result");
 
 
 
