@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+    <link rel="stylesheet" media="all" type="text/css" href="assets/css/style.css">
+    <link rel "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+
+    <title>Trivia Game</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron jumbotron-fluid">
+            <h1 class="display-4" id="result">Trivia Game: The Office</h1>
+        </div>
+        <!-- jumbotron-->
+    </div>
+    <!-- end of container-->
+    <div class="container">
+        <div class="row">
+            <!-- start of timer title-->
+            <div class="col-12">
+                <h1 class=timeTitle id="timer"> Time remaining: </h1>
+            </div>
+            <!-- end of title-->
+            <!-- start of questions-->
+            <div class="col-12">
+                <h2 class="allText"> 
+                        In "The Coup", What 90's movie does Michael show for Movie Monday? </h2>
+                <ul>
+                    <span>
+                        <label for= "radio-1" id="wrong">Never Been Kissed</label>
+                        <input type="radio" name="radio" value="wrong">
+                    </span>
+                    <span>
+                        <label for ="radio-2" id="wrong">Batman Returns</label>
+                        <input type="radio" name="radio" value="wrong">
+                    </span>
+                    <span>
+                        <label for ="radio-3" id="wrong">Can't Hardly Wait</label>
+                        <input type="radio" name="radio"  value="wrong">
+                    </span>
+                    <span>
+                        <label for ="radio-4" id="answer">Varsity Blues</label>
+                        <input type="radio" name="radio"  value="answer">
+                    </span>
+                </ul>
+            </div>
+            <!-- end of first question-->
+            <div class="col-12">
+                <h2 class="allText">In "Diwali", What does Michael mistakenly believe Diwali is? </h2>
+                <ul>
+                    <span>
+                        <label for ="radio-" id="wrong">Hindu Hannukah</label>
+                        <input type="radio" name="radios" value="wrong">
+                    </span>
+                    <span>
+                        <label for ="radio-" >Hindu Hallowing</label>
+                        <input type="radio" name="radios"  value="answer">
+                    </span>
+                    <span>
+                        <label for ="radio-" id="wrong">Hindu Christmas</label>
+                        <input type="radio" name="radios" value="wrong">
+                    </span>
+                    <span>
+                        <label for ="radio-" id="wrong">Hindu Thanksgiving</label>
+                        <input type="radio" name="radios" value="wrong">
+                    </span>
+                </ul>
+            </div>
+            <!-- end of second question-->
+            <div class="col-12">
+                <h2 class="allText">In "Fun Run", Dwight mercy kills Angela's cat. Name that cat. </h2>
+                <ul>
+                    <span>
+                        <label for ="radio">Sprinkles</label>
+                        <input type="radio" name="radio1" value="answer">
+                    </span>
+                    <span>
+                        <label for ="radio" id="wrong">Bandit</label>
+                        <input type="radio" name="radio1" value="wrong">
+                    </span>
+                    <span>
+                        <label for ="radio" id="wrong">Garbage</label>
+                        <input type="radio" name="radio1" value="wrong">
+                    </span>
+                    <span>
+                        <label for ="radio" id="wrong">Fluffy</label>
+                        <input type="radio" name="radio1" value="wrong">
+                    </span>
+                </ul>
+            </div>
+            <!-- end of thrid question-->
+            <div class="col-12">
+                <h2 class="allText">In "Prince Family Paper", Which actress's hotness are The Office debating? </h2>
+                <ul>
+                    <span>
+                        <label for ="radios" id="wrong">Julia Roberts</label>
+                        <input type="radio" name="radio2" value="wrong">
+                    </span>
+                    <span>
+                        <label  for ="radios" id="wrong">Meryl Streep</label>
+                        <input type="radio" name="radio2" value="wrong">
+                    </span>
+                    <span>
+                        <label for ="radios" id="wrong">Gleen Close</label>
+                        <input type="radio" name="radio2" value="wrong">
+                    </span>
+                    <span>
+                        <label for ="radios" >Hillary Swank</label>
+                        <input type="radio" name="radio2"  value="answer">
+                    </span>
+                </ul>
+            </div>
+            <!-- end of fourth question-->
+
+            <!-- end of row-->
+        </div>
+        <!-- end of second container-->
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+
+</html>
